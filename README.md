@@ -1,4 +1,5 @@
 # embedded-project-rcs
 
 Project Rapid Confidential Smoke
-Project Description
+Project is great!
+This will work.
