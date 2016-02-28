@@ -17,7 +17,6 @@ while True:
 
     currentTime = str(datetime.datetime.now())
     INPUT = random.randint(1,100)
-    msg = "fake random number: {0} @ {1}". format(INPUT, currentTime)
+    msg = "{0}@{1}". format(INPUT, currentTime)
     sock.sendto(msg.encode('utf-8'), (IP, PORT))
     time.sleep(1)
-    print('fake local server running: {0}'.format(INPUT))
